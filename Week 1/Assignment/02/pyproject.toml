@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "week1-study-cli"
+version = "0.1.0"
+description = "Week1 study tracker CLI package"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+week1-study = "week1_cli_pkg.main:run"
